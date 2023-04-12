@@ -1,0 +1,24 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "FinancialCharts",
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "Basic",
+    "componentName": "FinancialChart",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "14.21.3",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.0",
+    "libraryName": "financial-charts",
+    "libraryId": "e526abfc-45b7-4bf9-9a99-edb309e55f10",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionShortDescription": "FinancialCharts description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}

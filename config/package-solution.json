@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "financial-charts-client-side-solution",
+    "id": "e526abfc-45b7-4bf9-9a99-edb309e55f10",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "FinancialCharts description"
+      },
+      "longDescription": {
+        "default": "FinancialCharts description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "financial-charts Feature",
+        "description": "The feature that activates elements of the financial-charts solution.",
+        "id": "55d9201d-095f-46fa-84d2-116fa640cc94",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/financial-charts.sppkg"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "horizontalAlignment": "Center",
+      "text": "${chartTitle}",
+      "width": "Full"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${chartDescription}",
+              "wrap": true
+            },
+            {
+              "type": "Image",
+              "url": "${chartURL}",
+              "horizontalAlignment": "Center",
+              "size": "ExtraLarge"
+          }
+          ]
+        }
+      ]
+    }
+  ], 
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "View Larger Chart",
+      "url": "${chartURL}"
+    }
+  ]
+}

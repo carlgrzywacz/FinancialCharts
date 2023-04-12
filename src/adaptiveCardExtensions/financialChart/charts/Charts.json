@@ -1,0 +1,32 @@
+[
+    {
+        "title": "VIX 1 Year",
+        "value": "1",
+        "image": "https://github.com/carlgrzywacz/images/blob/main/vix-volatility-index-1-year.png?raw=true",
+        "description": "This chart shows the past 1 year of data for the VIX."
+    },
+    {
+        "title": "S&P 500 5 Year",
+        "value": "2",
+        "image": "https://github.com/carlgrzywacz/images/blob/main/sp-500-5-year.png?raw=true",
+        "description": "This chart shows the past 5 years of data the S&P 500."
+    },
+    {
+        "title": "Dow Jones Last Year",
+        "value": "3",
+        "image": "https://github.com/carlgrzywacz/images/blob/main/dow-jones-industrial-average-last-year.png?raw=true",
+        "description": "This chart shows the last year of data for the Dow Jones."
+    },
+    {
+        "title": "Nasdaq 5 Year",
+        "value": "4",
+        "image": "https://github.com/carlgrzywacz/images/blob/main/nasdaq-historical-5-year.png?raw=true",
+        "description": "This chart shows the past 5 years of data for the Nasdaq."
+    },
+    {
+        "title": "Dow Jones YTD",
+        "value": "5",
+        "image": "https://github.com/carlgrzywacz/images/blob/main/dow-jones-ytd-performance-2023-04-11-macrotrends.png?raw=true",
+        "description": "This chart shows data for the current year to date for the Dow Jones."
+    }
+]
